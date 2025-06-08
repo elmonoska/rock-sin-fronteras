@@ -1,15 +1,25 @@
-# React + Vite
+# 🎸 Rock Sin Fronteras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto personal desarrollado como práctica y demostración para construir una landing page de un evento ficticio dedicado al rock alternativo en español. Fue creado utilizando React con Vite y TailwindCSS para una estructura moderna, modular y responsiva.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) – Entorno de desarrollo ultrarrápido
+- [TailwindCSS](https://tailwindcss.com/) – Framework de estilos utilitario
 
-## Expanding the ESLint configuration
+## Instalación y ejecución
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/rock-sin-fronteras.git
+   ```
 
-Creditos logotipos de marcas
-https://worldvectorlogo.com/es
+2. Ejecutalo:
+   ```bash
+   npm run dev
+   ```
+
+## Créditos adicionales
+
+- [World Vector Logo](https://worldvectorlogo.com/es)

@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo-h.svg";
+import logo from "../assets/images/logo-h.webp";
 export default function Navbar({ uiTheme, setUiTheme }) {
   // Cambia el tema light dark
   function handleTheme() {
