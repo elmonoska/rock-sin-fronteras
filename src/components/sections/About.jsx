@@ -1,3 +1,4 @@
+import cartelPromocional from "../../assets/images/cartel-promocional.webp";
 export default function About({ uiTheme }) {
   return (
     <section
@@ -42,11 +43,12 @@ export default function About({ uiTheme }) {
         </ul>
       </div>
 
-      <div className="relative aspect-video rounded-xl overflow-hidden shadow-lg">
+      <div className="relative rounded-xl overflow-hidden shadow-lg">
         <img
-          src="/images/poster-preview.webp"
+          src={cartelPromocional}
           alt="Cartel promocional del evento"
           className="w-full h-full object-cover opacity-90"
+          loading="lazy"
         />
       </div>
     </section>
