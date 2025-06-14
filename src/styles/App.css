@@ -47,3 +47,16 @@ p {
    margin-inline: auto;
    margin-block: 1rem;
 }
+
+dialog {
+   transition: scale .3s ease,display .3s ease allow-discrete;
+   scale: 0;
+   z-index: 40;
+   &[open] {
+      scale: 1;
+      transition: scale .3s ease;
+      @starting-style {
+         scale: 0
+      }
+   }
+}
