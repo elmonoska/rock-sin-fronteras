@@ -23,14 +23,6 @@ export default function Contact({ uiTheme }) {
               contacto@elpulsoindierock.com
             </a>
           </p>
-          <p>
-            <span className="font-medium">Ubicación:</span> Hotel Hilton Mexico
-            City Reforma
-          </p>
-          <p>
-            <span className="font-medium">Horario de atención:</span> Lunes a
-            viernes de 10:00 a 18:00 hrs
-          </p>
         </div>
       </div>
     </section>
