@@ -1,4 +1,5 @@
 import logo from "../assets/images/logo-h.webp";
+import logoSonyMusic from "../assets/images/sony-music-logo.webp";
 export default function Navbar({ uiTheme, setUiTheme }) {
   // Cambia el tema light dark
   function handleTheme() {
@@ -15,7 +16,7 @@ export default function Navbar({ uiTheme, setUiTheme }) {
 
   return (
     <>
-      <nav className="nav bg-purple-950 shadow-md border-b border-fuchsia-400 sticky top-0 z-40 text-slate-50">
+      <nav className="nav bg-purple-950 shadow-md sticky top-0 z-40 text-slate-50">
         <section className="nav__container flex justify-between md:justify-around items-center mx-auto h-[80px] w-[90vw]">
           <figure className="h-16 w-auto overflow-hidden flex items-center">
             <a href="/" className="block h-full">
@@ -26,6 +27,8 @@ export default function Navbar({ uiTheme, setUiTheme }) {
               />
             </a>
           </figure>
+
+          <img src={logoSonyMusic} alt="Sony Music Logo" loading="lazy" className="w-[75px]" />
 
           <label className="nav__toggle z-50 w-[30px] h-[30px] bg-[url('/icons/menu-open.svg')] bg-cover cursor-pointer transition-[background] has-[input:checked]:bg-[url('/icons/menu-close.svg')] peer/menu md:hidden">
             <input
