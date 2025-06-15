@@ -160,7 +160,7 @@ export default function Guests({ uiTheme }) {
       {/* Modal */}
       <dialog
         ref={dialogRef}
-        className="backdrop:bg-black/60 rounded-xl w-[90%] max-w-2xl p-0 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        className={`border rounded-xl w-[90%] max-w-2xl p-0 fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ${uiTheme ? "backdrop:bg-black/60 bg-slate-50 border-slate-950/80" : "backdrop:bg-slate-900/40 bg-gray-950 border-slate-50/20"}`}
         onClose={handleClickCloseDialog}
         closedBy="any"
       >
