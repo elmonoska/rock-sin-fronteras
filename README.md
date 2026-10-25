@@ -5,8 +5,9 @@ Este es un proyecto personal desarrollado como práctica y demostración para co
 ## Tecnologías utilizadas
 
 - [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/) – Entorno de desarrollo ultrarrápido
-- [TailwindCSS](https://tailwindcss.com/) – Framework de estilos utilitario
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Figma](https://www.figma.com/)
 
 ## Instalación y ejecución
 
